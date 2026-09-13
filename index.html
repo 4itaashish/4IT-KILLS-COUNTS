@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PUBG Squad Kills Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>4IT Kills Tracker</h1>
+    <p>AASHISH • SAUGAT • KAALEY • AAYUSH</p>
+</header>
+
+<!-- Player Summary Cards -->
+<div class="container" style="margin-bottom: 25px;">
+    <div style="grid-column: 1 / -1;">
+        <div class="section-title">📊 Total Career Kills</div>
+        <div class="player-summary-grid" id="summaryGrid"></div>
+    </div>
+</div>
+
+<!-- Rankings + History -->
+<div class="container">
+    <div class="panel">
+        <h2>🏆 Kill Rankings</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Player</th>
+                    <th>Total Kills</th>
+                    <th>Matches</th>
+                </tr>
+            </thead>
+            <tbody id="rankingBody"></tbody>
+        </table>
+    </div>
+
+    <div class="panel">
+        <h2>📜 Match History (By Day)</h2>
+        <div id="historyList"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
