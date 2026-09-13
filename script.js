@@ -6,17 +6,18 @@
 const PLAYERS = ["AASHISH", "SAUGAT", "KAALEY", "AAYUSH"];
 
 
-/*
+
 const DATA = [
     {
         day: "Day 1",
         matches: [
-            [0, 0, 0, 0],    // Match 1
-            [0, 0, 0, 0],    // Match 2
-            [0, 0, 0, 0],    // Match 3
+            [1, 0, 0, 3],    // Match 1
+            [1, 0, 1, 0],    // Match 2
+            [1, 0, 1, 3],    // Match 3
             [0, 0, 0, 0]     // Match 4
         ]
-    },
+    }
+   /*
     {
         day: "Day 2",
         matches: [
@@ -36,8 +37,9 @@ const DATA = [
             [0, 0, 0, 0]
         ]
     }
+    */
 ];
-*/
+
 /* =========================================================
    ⛔ DO NOT EDIT BELOW THIS LINE
    ========================================================= */
