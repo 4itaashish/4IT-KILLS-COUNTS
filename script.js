@@ -66,7 +66,7 @@ const DATA = [
         ]
     },
    {
-        day: "Day 6",
+        day: "Day 7",
         matches: [
             [0, 1, 0, 0],
             [3, 0, 1, 1],
